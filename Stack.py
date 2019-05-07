@@ -59,13 +59,13 @@ class Stack:
             print()
             print("No values to show! \nAdd values with: \naddFront()\nor\naddEnd()")
         
-    def clear():
+    def clear(self):
         self.first = None
             
     def showLength(self):
      	print(f'length:{self.length}')
-        
 
 
 
         
+    
