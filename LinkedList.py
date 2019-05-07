@@ -26,7 +26,7 @@ class LinkedList:
         #when node is set increase LL_Length
         self.length +=1
         
-    def addEnd(self,node):
+    def addEnd(self,node):#->void
         #if no first node, 
         #set first node to node seen in else statement
         if self.first != None:
